@@ -181,7 +181,7 @@ $mailer->LE            = $mail_newline;
 <div class="panel panel-success">
 <div class="panel-body">
 
-<?php if ( $result) { ?>
+<?php if ( $result ) { ?>
 <div class="result alert alert-<?php echo get_criticity($result) ?>">
 <p><i class="fa <?php echo get_fa_class($result) ?>" aria-hidden="true"></i> <?php echo $messages[$result]; ?></p>
 </div>
