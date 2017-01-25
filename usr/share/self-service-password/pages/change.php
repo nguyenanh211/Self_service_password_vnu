@@ -234,10 +234,10 @@ if ($pwd_show_policy_pos === 'above') {
 }
 ?>
 
-<div class="alert alert-info change-pass">
+<div class="change-pass">
 <form action="#" method="post" class="form-horizontal">
     <div class="form-group">
-        <label for="login" class="col-sm-4 control-label"><?php echo $messages["login"]; ?></label>
+        <div class = "lb_changepas"><label for="login" ><?php echo $messages["login"]; ?></label></div>
         <div class="col-sm-8">
             <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-user"></i></span>
@@ -246,7 +246,7 @@ if ($pwd_show_policy_pos === 'above') {
         </div>
     </div>
     <div class="form-group">
-        <label for="oldpassword" class="col-sm-4 control-label"><?php echo $messages["oldpassword"]; ?></label>
+        <div class = "lb_changepas"><label for="oldpassword" ><?php echo $messages["oldpassword"]; ?></label></div>
         <div class="col-sm-8">
             <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
@@ -255,7 +255,7 @@ if ($pwd_show_policy_pos === 'above') {
         </div>
     </div>
     <div class="form-group">
-        <label for="newpassword" class="col-sm-4 control-label"><?php echo $messages["newpassword"]; ?></label>
+        <div class = "lb_changepas"><label for="newpassword" ><?php echo $messages["newpassword"]; ?></label></div>
         <div class="col-sm-8">
             <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
@@ -264,7 +264,7 @@ if ($pwd_show_policy_pos === 'above') {
         </div>
     </div>
     <div class="form-group">
-        <label for="confirmpassword" class="col-sm-4 control-label"><?php echo $messages["confirmpassword"]; ?></label>
+        <div class = "lb_changepas"><label for="confirmpassword" ><?php echo $messages["confirmpassword"]; ?></label></div>
         <div class="col-sm-8">
             <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
@@ -282,7 +282,7 @@ if ($pwd_show_policy_pos === 'above') {
 <?php } ?>
     <div class="form-group">
         <div class="col-sm-offset-4 col-sm-8">
-            <button type="submit" class="btn btn-success">
+            <button type="submit" >
                 <i class="fa fa-check-square-o"></i> <?php echo $messages['submit']; ?>
             </button>
         </div>
